@@ -47,7 +47,8 @@ appUrl = SHAFT.Properties.browserStack.appUrl();
 customID = SHAFT.Properties.browserStack.customID();
 appName = SHAFT.Properties.browserStack.appName();
 ```
-Example : 
+**Example** : 
+
 you want to set targetBrowserName to MicrosoftEdge insted of default value chrome
 in your before method or before you initiate your driver you should do like below 
 ```java
