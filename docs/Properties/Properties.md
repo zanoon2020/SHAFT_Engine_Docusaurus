@@ -59,6 +59,19 @@ in your before method or before you initiate your driver you should do like belo
         driver = new SHAFT.GUI.WebDriver();
 ```
 you can replace "MicrosoftEdge" with any property from table below .
+خق
+**OR**
+you can use Browser library from selenium as follow 
+```java
+	import com.shaft.driver.SHAFT;
+	import org.openqa.selenium.remote.Browser;
+	import org.testng.annotations.BeforeMethod;
+	
+	@BeforeMethod
+	public void beforeMethod() {
+        SHAFT.Properties.web.set().targetBrowserName(Browser.EDGE.browserName()); ;
+        driver = new SHAFT.GUI.WebDriver();
+```
 
 Note that it's recommended to set any static values that won't change during execution, or values that you wish to later override from your CLI execution (CI/CD server) in external property files using the first approach.
 
