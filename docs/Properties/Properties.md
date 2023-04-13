@@ -60,7 +60,8 @@ in your before method or before you initiate your driver you should do like belo
 	}
 ```
 you can replace "MicrosoftEdge" with any property from table below .
-خق
+
+
 **OR**
 you can use Browser library from selenium as following
 ```java
